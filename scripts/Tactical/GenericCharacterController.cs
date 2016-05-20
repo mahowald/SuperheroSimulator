@@ -22,7 +22,7 @@ public class GenericCharacterController : MonoBehaviour
 	public float moveFwd; // between -1 and 1. dot product of desired heading with transform.forward
 	public float moveRight; // between -1 and 1. dot product of desired heading with transform.right
 
-    public GroundedHelper groundedHelper;
+        public GroundedHelper groundedHelper;
 	
 	protected bool airborne; // are our feet touching the ground?
 	protected float airtime = 0f; // how long have we been falling?
